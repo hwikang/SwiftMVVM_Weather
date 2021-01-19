@@ -9,5 +9,5 @@ import Foundation
 
 
 struct Constant {
-    let appid = "3a395c05bd9d58055e42048436e96166"
+    let appid = ""
 }
