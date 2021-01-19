@@ -27,7 +27,7 @@ class AddWeatherCityViewController: UIViewController {
     @IBAction func onSave(_ sender: UIButton) {
         if let cityName = cityNameTextField.text{
             print(cityName)
-            let url = URL(string: "https://api.openweathermap.org/data/2.5/weather?q=\(cityName)&appid=3a395c05bd9d58055e42048436e96166&units=imperial")!
+            let url = URL(string: "https://api.openweathermap.org/data/2.5/weather?q=\(cityName)&appid=\(Constant().appid)&units=imperial")!
             let resource = Resource<WeatherViewModel>(url: url) { data in
                 guard let decoded = try? JSONDecoder().decode(WeatherViewModel.self, from: data) else {
                    fatalError("decoding error")

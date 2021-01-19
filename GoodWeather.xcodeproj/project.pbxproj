@@ -23,6 +23,7 @@
 		7B7F589125B6B6D9008AD80D /* 740-gear-toolbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7F588E25B6B6D9008AD80D /* 740-gear-toolbar.png */; };
 		7B7F589625B6B82E008AD80D /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7F589525B6B82E008AD80D /* SettingTableViewController.swift */; };
 		7B7F589B25B6B9C8008AD80D /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7F589A25B6B9C8008AD80D /* SettingViewModel.swift */; };
+		7B7F58A325B6D696008AD80D /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7F58A225B6D696008AD80D /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		7B7F588E25B6B6D9008AD80D /* 740-gear-toolbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "740-gear-toolbar.png"; sourceTree = "<group>"; };
 		7B7F589525B6B82E008AD80D /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
 		7B7F589A25B6B9C8008AD80D /* SettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewModel.swift; sourceTree = "<group>"; };
+		7B7F58A225B6D696008AD80D /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				7B7F582225B6815B008AD80D /* AppDelegate.swift */,
 				7B7F582425B6815B008AD80D /* SceneDelegate.swift */,
 				7B7F582825B6815B008AD80D /* Main.storyboard */,
+				7B7F58A725B6D7C7008AD80D /* Constant */,
 				7B7F582B25B6815E008AD80D /* Assets.xcassets */,
 				7B7F582D25B6815E008AD80D /* LaunchScreen.storyboard */,
 				7B7F583025B6815E008AD80D /* Info.plist */,
@@ -186,6 +189,14 @@
 				7B7F588C25B6B6D9008AD80D /* 740-gear-toolbar@3x.png */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		7B7F58A725B6D7C7008AD80D /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				7B7F58A225B6D696008AD80D /* Constant.swift */,
+			);
+			path = Constant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,6 +340,7 @@
 				7B7F589B25B6B9C8008AD80D /* SettingViewModel.swift in Sources */,
 				7B7F588425B6B57B008AD80D /* Double+Extension.swift in Sources */,
 				7B7F586B25B6888E008AD80D /* WeatherCell.swift in Sources */,
+				7B7F58A325B6D696008AD80D /* Constant.swift in Sources */,
 				7B7F586225B68379008AD80D /* AddWeatherCityViewController.swift in Sources */,
 				7B7F585D25B68355008AD80D /* WeatherListTableTableViewController.swift in Sources */,
 			);
